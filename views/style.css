@@ -1,0 +1,42 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+.form{
+    text-align: left;
+    width: 800px;
+    margin: 0 auto;
+}
+.form_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5px 0;
+}
+.form_block label{
+    font-size: 0.9em;
+    margin-bottom: 3px;
+}
+.form button{
+    margin-top: 5px;
+}
+nav{
+    margin: 5px;
+    border-bottom: 1px solid #000;
+}
+#block_images{
+    margin: 5px 0;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+@media (max-width: 768px){
+    body{
+        width: 600px;
+    }
+}
+@media (max-width: 425px){
+    body{
+        width: auto;
+    }
+}
